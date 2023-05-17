@@ -1,0 +1,429 @@
+.header{
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    position: relative;   
+}
+
+.header__logo{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.header__bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.header__dropdown{
+margin-left: 30px;
+}
+
+.header__dropdown .btn {
+    color:#fff;
+    background-color:#545b62;
+    border-color:#4e555b;
+}
+
+.header__main{
+    min-width: 300px;
+}
+.header__input{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    margin-left: 30px;
+   
+}
+.form-control{
+    position:relative;
+    flex:  1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+
+    display: block;
+width: 100%;
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: .25rem;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.searchbar{
+    position: absolute;
+     left: 87%;
+     top: 5px;
+}
+
+.header__dropdown-flag{
+    margin-left: 50px;
+    
+}
+
+.header__dropdown-flag .uk{
+    position: relative;
+    bottom: 40px;
+}
+
+ .header__dropdown-flag #dropdown-basic-button{
+    padding: 5px 25px;
+}
+
+.drop1{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.drop1 img{
+    position:absolute;
+    margin-right: 100px;
+}
+
+
+.header__dropdown-flag .btn{
+    color: #000;
+background-color: #fff;
+border-color: #fff;
+}
+
+.header__cart{
+   display: flex;
+   margin-left: 10px;
+   margin-top: 15px;
+    
+}
+
+.header__carts{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.header__cart span{
+    color: #fff;
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.header__cart img{
+    padding-left: 10px;
+}
+
+
+
+.slides{
+  width: 100%;
+  margin-top: 50px;
+  height: auto;
+}
+
+.carousel{
+    width: 100%;
+}
+.slides  .carousel-indicators{
+    display: none;
+}
+
+.slides  .carousel__content{
+   text-align: center;
+   
+}
+
+.slides  .carousel__content h3{
+font-size: 70px;
+color: #fff;
+width: 100%;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.slides  .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .slides .button .btn{
+    width: 200px;
+    padding: 10px 0;
+    font-size: 20px;
+    background-color: #252525;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .slides .button .btn:hover{
+    background-color: #fd7e14;
+    transition: ease all .5s;
+  }
+
+
+.removes .slides .carousel-control-prev
+{
+    width: 45px;
+    height: 45px;
+    top: 123px;
+    opacity: 1;
+    background: rgb(242,222,172,.8);
+    border-radius: 50%;
+
+   
+} 
+
+.removes .carousel-control-next{
+    width: 45px;
+    height: 45px;
+    top: 123px;
+    opacity: 1;
+    background: rgb(242,222,172,.8);
+    border-radius: 50%;
+
+    
+    
+}
+
+.header__bottom .close{
+   display: none;
+}
+
+.header__smaller {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:370px;
+    height: 100vh;
+    background: #000;
+    transition: 0.6 ease-in;
+
+    flex-direction: column;
+    z-index: 100;
+    text-align: left;
+   
+
+
+}
+.header__carts{
+    display: none;
+}
+
+
+
+.overlay__close{
+    font-size: 27px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+.header__smaller .navbar__list{
+    flex-direction: column;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+    padding-top: 50px;
+    
+}
+
+.header__smaller .navbar__list li{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding:8px 8px 8px 32px;
+  
+
+}
+
+.header__carts span{
+    color: #fff;
+    padding: 0 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.removes .slides .carousel-control-prev-icon,
+.carousel-control-next-icon{
+    filter: invert(1) grayscale(100);
+    width: 16px;
+}
+
+.header__bottom .close{
+    display: flex;
+  }
+
+
+
+@media screen and (max-width: 1150px){
+    .slides  .carousel__content h3{
+     font-size: 60px;
+  }
+   
+
+
+
+
+
+ 
+}
+
+
+
+@media screen and (max-width: 850px) {
+  
+
+   .navbar{
+    display: none;
+   }
+
+   .header__dropdown{
+    display: none;
+   }
+   .slides {
+     position: relative;
+     top: 100px;
+   }
+
+   .slides  .carousel__content h3{
+    font-size: 40px;
+   }
+
+   .overlay__open{
+    position: relative;
+    top: 110px;
+   }
+   
+   .header__main{
+    position: relative;
+    top: 110px;
+   }
+   .header__dropdown-flag{
+    position: relative;
+    right: 400px;
+   }
+
+ .header__cart{
+    width: 100%;
+    position: relative;
+    right: 120px;
+    display: flex;
+    margin-left: 0;
+
+ }
+
+ .header__cart h2{
+   position: relative;
+  bottom: 23px;
+  left: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .header__cart{
+    display: none;
+ }
+ .header__carts{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+  .header__carts{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    top: 73px;
+    left: 200px;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+    .header__carts{
+        width: 60%;
+    }
+
+    .slides  .carousel__content h3{
+        font-size: 30px;
+     }
+     .slides .button{
+        margin-top: 30px;
+     }
+
+     .slides .button .btn{
+        font-size:16px;
+        width: 150px;
+        
+     }
+
+
+
+}
+@media screen and (max-width: 550px){
+     .removes .slides .carousel-control-prev,
+.removes .carousel-control-next{
+    top: 200px;
+}
+}
+
+@media screen and (max-width: 450px){
+.header{
+    padding: 2rem 3.5rem;
+}
+
+.header__carts{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+
+ .header__main{
+    left: 60px;
+    width:100%;
+}
+
+.header__dropdown-flag{
+width: 100%;
+
+}
+
+.dropdown{
+    width: 100%;
+    left: 60px;
+}
+
+.overlay__open{
+    left: 60px;
+}
+
+.slides{
+    max-width: 100%;
+}
+
+  
+}

@@ -1,0 +1,208 @@
+.fashion__app .carousel-indicators{
+    display: none;
+}
+
+.title h1{
+    width: 100%;
+    font-size: 40px;
+    color: #30302e;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+
+
+.fashion__app .fashion__content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 0 4rem;
+}
+
+.fashion__app .fashion__content .carousels{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fashion__app .fashion__content .carousels .car__row{
+    margin: 0 40px;
+}
+
+
+
+
+
+.fashion__app .fashion__content .carousels .car__row .name{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    color: #30302e;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+
+.fashion__app .fashion__content .carousels .car__row .price{
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+
+.fashion__app .fashion__content .carousels .car__row .shirt__image{
+    margin: 20px 0;
+}
+
+.fashion__app .fashion__content .carousels .car__row span{
+    color: #f26522;
+}
+
+
+.fashion__app .fashion__content .carousels .car__row .bottoms{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  justify-content: space-around;
+}
+
+.fashion__app .fashion__content .carousels .car__row .bottoms .buttons{
+    font-size: 16px;
+    color: #f26522;
+    background-color: transparent;
+    font-weight:700;
+    cursor: pointer;
+}
+
+
+.fashion__app .fashion__content .carousels .car__row .bottoms h2{
+font-size: 16px;
+color: #262626;
+background-color:transparent;
+text-decoration: none;
+list-style: none;
+margin: 0;
+cursor: pointer;
+}
+
+.fashion__app .fashion__content .carousels .car__row .shirt__image img{
+   width: 100%;
+    height: auto;
+}
+
+
+
+
+.fashion__app .fashion__content .carousels .car__row .bottoms .buttons:hover{
+    color: #000;
+    transition: ease all .5s;
+}
+
+.fashion__app .fashion__content .carousels .car__row .bottoms h2:hover{
+    transition: ease all .5s;
+    color: #f26522;
+}
+
+ .carousels .car__row .shirt__image {
+    max-width: 100%;
+ }
+
+ .fashion__content .carousel-control-next{
+    top: 500px;
+    width: 55px;
+    height: 55px;
+    background-color: #30302e;
+    opacity: 1;
+    font-size: 30px;
+    color: #fff;
+ }
+ .fashion__content .carousel-control-prev{
+    top: 500px;
+    width: 55px;
+    height: 55px;
+    background-color: #30302e;
+    opacity: 1;
+    font-size: 30px;
+    color: #fff;
+ }
+
+ .fashion__content .carousel-control-prev,
+ .fashion__content .carousel-control-next:hover{
+    background-color: #fd7e14;
+    transition: ease all .5s;
+ }
+
+ .fashion__content .carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon{
+filter: none;
+
+ }
+
+.fashion__content .carousel-control-prev-icon,
+.carousel-control-next-icon{
+width: 22px;
+}
+@media screen and (max-width: 1150px){
+    .fashion__app .fashion__content {
+        padding: 0 2rem;
+    }
+}
+
+
+@media screen and (max-width: 850px){
+
+}
+
+
+@media screen and (max-width: 650px){
+   .fashion__app .title h1{
+    font-size: 30px;
+   }
+
+   .fashion__app .fashion__content .carousels .car__row .name{
+    font-size: 13px;
+   }
+
+   .fashion__app .fashion__content .carousels .car__row .bottoms .buttons{
+    font-size: 13px;
+   }
+
+   .fashion__app .fashion__content .carousels .car__row .bottoms h2{
+    font-size: 13px;
+   }
+}
+
+
+@media screen and (max-width: 550px){
+    .fashion__app .fashion__content{
+        padding: 0 0.3rem;
+    }
+
+    .fashion__app .title h1{
+        font-size: 30px;
+       }
+    
+       .fashion__app .fashion__content .carousels .car__row .name{
+        font-size: 10px;
+       }
+    
+       .fashion__app .fashion__content .carousels .car__row .bottoms .buttons{
+        font-size: 10px;
+       }
+    
+       .fashion__app .fashion__content .carousels .car__row .bottoms h2{
+        font-size: 10px;
+       }
+       .fashion__content .carousel-control-prev,
+       .fashion__content .carousel-control-next{
+    top: 400px;
+       }
+}
+
